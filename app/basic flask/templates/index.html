@@ -1,0 +1,9 @@
+<html>
+<body bgcolor="red">
+<h3>Hi,{{username}}</h3>
+{% for post in posts %}
+<div><p>{{post.author.username}}says:
+<b>{{post.body}}</b></p></div>
+{%endfor%}
+</body>
+</html>
